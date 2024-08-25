@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Detail Form</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Personal details</legend>
+
+        <div>
+          Salutation
+          <br>
+          <select name="Salutation" id="Salutation">
+            <option value="None.">--None--</option>
+            <option value="Mr.">Mr.</option>
+            <option value="Ms.">Ms.</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="firstname">First Name:</label>
+          <input type="text" id="firstname" name="first_name" placeholder="geekster" />
+        </div>
+        <br />
+        <div>
+          <label for="lastname">Last Name:</label>
+          <input type="text" id="lastname" name="last_name" placeholder="geekster" />
+        </div>
+        <br />
+        <div>
+          Gender:
+          <input type="radio" id="male" name="male" value="male" />
+          <label for="male">male</label>
+          <input type="radio" id="female" name="male" value="female" />
+          <label for="female">female</label>
+        </div>
+        <br />
+        <div>
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="mail" placeholder="geekster@gmail.com" />
+        </div>
+        <br />
+        <div>
+          <label for="date">Date of birth:</label>
+          <input type="date" id="date" name="date" />
+        </div>
+        <br />
+        <div>
+          <p>Address:</p>
+          <textarea
+            id="address"
+            name="address"
+            rows="4"
+            cols="25"
+            placeholder="Enter your remarks here..."
+          ></textarea>
+        </div>
+        <br />
+        <div>
+          <input type="submit" />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
